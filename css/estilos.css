@@ -1,3 +1,49 @@
+<<<<<<< HEAD
+header{
+  background-color: #5b7989;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  border-radius: 10px 10px 0 0;
+}
+
+header a {
+  color: black;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+#contenido {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#central {
+  background-color: #82c3a6;
+  width: 100%;
+  height: 50%;
+
+}
+
+#secundaria {
+  background-color: #d5c75f;
+  border: 1px;
+  height: 50%;
+  display: flex;
+}
+
+#secundaria div {
+  width: 50%;
+}
+
+footer{
+  border-radius: 0 0 10px 10px;
+  background-color: #C6d5c5;
+
+}
+=======
 header{
   background-color: #5b7989;
   color: white;
@@ -27,3 +73,4 @@ footer{
   background-color: #C6d5c5;
   
 }
+>>>>>>> ec0c5d1884d0604da80ed328f1de318775577ff4
