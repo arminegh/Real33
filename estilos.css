@@ -1,11 +1,8 @@
 body{
   font-family: "antique olive";
-  margin: 10px 70px 10px 70px;
-
 
 }
 header{
-
   background-color: #5b7989;
   color: white;
   text-shadow: 2px 2px #02010a;
@@ -58,8 +55,6 @@ header p {
   background-color: #d5c75f;
   display: flex;
   flex-direction: row;
-  border: 1px;
-
 }
 
 #secundaria div{
@@ -69,23 +64,7 @@ header p {
   width: 50%;
 }
 
-#izquierda{
-  box-shadow: 2px 2px #82c3a6;
-	transition-duration: 2.2s;
-}
 
-#izquierda:hover{
-	  transform: rotateZ(10deg);
-}
-
-#derecha{
-  box-shadow: 2px 2px #82c3a6;
-	transition-duration: 2.2s;
-}
-
-#derecha:hover{
-	  transform: translate(20px,-5px);
-}
 
 footer{
   border-radius: 0 0 10px 10px;
