@@ -1,3 +1,7 @@
+body{
+  font-family: "antique olive";
+
+}
 header{
   background-color: #5b7989;
   color: white;
@@ -61,9 +65,24 @@ header p {
 }
 
 
+
 footer{
   border-radius: 0 0 10px 10px;
   background-color: #C6d5c5;
+}
 
+#pie {
+  display: flex;
+  flex-direction: row;
+  padding: 0 40px 0 40px;
+}
+
+.apartados {
+  width: 25%;
+}
+
+.apartados a{
+  color: black;
+  text-decoration: none;
 }
 >>>>>>> 588217c9cc321edcd8a1e786568f049e77177970
