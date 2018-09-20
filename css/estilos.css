@@ -1,109 +1,57 @@
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('DancingScript.ttf');
+}
+
+
+  @media (min-width: 900px) {
+  	#contenido {
+  		width: 900px;
+  	}
+  }
+
+  @media (max-width: 899px){
+  		#contenido {
+  			width: 100%;
+  		}
+  }
+
 body{
-  font-family: "antique olive";
-  margin: 10px 70px 10px 70px;
-
-
-}
-header{
-
-  background-color: #5b7989;
-  color: white;
-  text-shadow: 2px 2px #02010a;
-  border-radius: 10px 10px 0 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-header h1 {
-  width: 50%
-}
-
-header p {
-  text-align: center;
-  width: 100%;
-  text-shadow: none;
-}
-
-#navegacion {
-  font-size: 25px;
-  text-align: right;
-  margin: auto;
-  width: 50%;
-}
-
-.liga {
-  color: white;
-  text-shadow: 2px 2px #02010a;
-  text-decoration: none;
-
+  font-family: "Dancing Script";
+  background-color: #02010a;
 }
 
 #contenido {
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto;
+}
+
+#contenido div {
+  float: left;
 
 }
 
-#central {
+.cabecera {
+  background-color: #5b7989;
+  width: 100%;
+}
+
+.central {
   background-color: #82c3a6;
-  display: flex;
-  flex-direction: row;
+  width: 100%;
 }
 
-#central img {
-  padding: 10px;
-  margin: auto;
-}
-#secundaria {
+
+#izquierda {
   background-color: #d5c75f;
-  display: flex;
-  flex-direction: row;
-  border: 1px;
-
-}
-
-#secundaria div{
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
   width: 50%;
 }
 
-#izquierda{
-  box-shadow: 2px 2px #82c3a6;
-	transition-duration: 2.2s;
+#derecha {
+  background-color: #d5c75f;
+  width: 50%;
 }
 
-#izquierda:hover{
-	  transform: rotateZ(10deg);
-}
-
-#derecha{
-  box-shadow: 2px 2px #82c3a6;
-	transition-duration: 2.2s;
-}
-
-#derecha:hover{
-	  transform: translate(20px,-5px);
-}
-
-footer{
-  border-radius: 0 0 10px 10px;
+.pie {
   background-color: #C6d5c5;
-}
-
-#pie {
-  display: flex;
-  flex-direction: row;
-  padding: 0 40px 0 40px;
-}
-
-.apartados {
-  width: 25%;
-}
-
-.apartados a{
-  color: black;
-  text-decoration: none;
-}
->>>>>>> 588217c9cc321edcd8a1e786568f049e77177970
+  width: 100%;
+  }
