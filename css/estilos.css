@@ -3,37 +3,58 @@
   src: url('DancingScript.ttf');
 }
 
-
-  @media (min-width: 900px) {
+@media (min-width: 900px) {
   	#contenido {
   		width: 900px;
   	}
   }
-
-  @media (max-width: 899px){
+@media (max-width: 899px){
   		#contenido {
   			width: 100%;
   		}
   }
-
 body{
   font-family: "Dancing Script";
   background-color: #02010a;
 }
-
 #contenido {
   margin: 0 auto;
 }
-
 #contenido div {
   float: left;
-
 }
 
 .cabecera {
   background-color: #5b7989;
   width: 100%;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+
+
+  }
+
+.liga {
+  font-size: 1.5em;
+  text-shadow: none;
+  color: white;
 }
+
+#titulo {
+  width: 50%;
+}
+#navegacion{
+  margin-top: 25px;
+  text-align: right;
+  width: 50%;
+
+}
+
+
+
 
 .central {
   background-color: #82c3a6;
