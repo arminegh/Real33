@@ -58,15 +58,20 @@ body{
 
 .secundaria{
   background-color: #d5c75f;
+  padding: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 350px;
+  height: auto;
 }
 
 
 .secundaria img {
   box-shadow: 2px 2px #02010a;
+}
+
+.secundaria p{
+  text-align: center;
 }
 
 #izquierda:hover{
@@ -110,4 +115,56 @@ body{
       #contenido {
         width: 100%;
       }
+
+      .cabecera {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        }
+
+      #titulo {
+        text-align: center;
+        width: 100%;
+      }
+      #navegacion{
+        text-align: center;
+        width: 100%;
+      }
+
+      .central img {
+        width: 100%;
+      }
+
+
+
+      .secundaria{
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap;
+        height: auto;
+      }
+      .secundaria img {
+        width: 100%;
+      }
+
+
+
+
+
+
+      .pie {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        }
+        .pie .apartados {
+          text-align: center;
+          width: 100%;
+        }
+
+
+
+
   }
